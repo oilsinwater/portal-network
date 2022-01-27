@@ -4,7 +4,7 @@
   "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && npx hardhat run scripts/run.js "
   },
   "keywords": [],
   "author": "",
@@ -385,5 +385,13 @@
     "yargs": "^13.3.2",
     "yargs-parser": "^13.1.2",
     "yargs-unparser": "^1.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oilsinwater/portal-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oilsinwater/portal-network/issues"
+  },
+  "homepage": "https://github.com/oilsinwater/portal-network#readme"
 }
